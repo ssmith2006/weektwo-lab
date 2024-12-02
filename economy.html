@@ -1,11 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Get That Money! $$$</title>
+    <style>
+      
+      /* spacing */
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid purple;
+}
+
+thead th:nth-child(1) {
+  width: 30%;
+}
+
+thead th:nth-child(2) {
+  width: 20%;
+}
+
+thead th:nth-child(3) {
+  width: 15%;
+}
+
+thead th:nth-child(4) {
+  width: 35%;
+}
+
+th,
+td {
+  padding: 20px;
+}
+/* typography */
+
+html {
+  font-family: "helvetica neue", helvetica, arial, sans-serif;
+}
+
+thead th,
+tfoot th {
+  font-family: "Rock Salt", cursive;
+}
+
+th {
+  letter-spacing: 2px;
+}
+
+td {
+  letter-spacing: 1px;
+}
+
+tbody td {
+  text-align: center;
+}
+
+tfoot th {
+  text-align: right;
+}
+/* graphics and colors */
+
+thead,
+tfoot {
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+thead th,
+tfoot th,
+tfoot td {
+  background: linear-gradient(to bottom, rgb(0 0 0 / 10%), rgb(0 0 0 / 50%));
+  border: 3px solid purple;
+}
+
+/* zebra striping */
+
+tbody tr:nth-child(odd) {
+  background-color: #ff33cc;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #e495e4;
+}
+
+tbody tr {
+  background-image: url(noise.png);
+}
+
+table {
+  background-color: #ff33cc;
+}
+
+    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+  <header>
+  <nav>
+    <ul><a href="index.html">Home</a></ul>
+    <ul><a href="sports.html">SportsCenter</a></ul>
+    <ul><a href="economy.html">Get That Money</a></ul>
+  </nav>
+
+   <h1><strong>What's In Your Wallet?</strong></h1>
+   </header>
+   
+<main>  
+<table>
+  <thead>
+    <tr>
+      <th>Company Name</th>
+      <th>Price Table</th>
+      
+    </tr>
+  </thead>
+<tbody>
+    <tr>
+      <td>Apple (APPL)</td>
+      <td>$237.33</td>
+        
+    </tr>
+    <tr>
+      <td>Google (GOOG)</td>
+      <td>$170.49</td>
+       
+    </tr>
+    <tr>
+      <td>Starbucks (SBUX)</td>
+      <td>$102.46</td>
+       
+    </tr>
+    <tr>
+      <td>Coca Cola (KO)</td>
+      <td>$64.08</td>
+       
+    </tr>
+    <tr>
+      <td>Wendy's (WEN)</td>
+      <td>$18.36</td>
+      
+    </tr>
+</tbody>   
+
+
+
+
+
+</table>
+</main>  
+
+   <p><footer>Copyright &copy; 2024 Le Shant Rene Designs</footer></p>  
 </body>
 </html>
